@@ -1,0 +1,162 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-06T20:51:01.379Z",
+    "end": "2025-04-06T20:52:23.133Z",
+    "duration": 81754,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3430c3f3-8be3-4bb3-80db-55209f5ebae5",
+      "title": "",
+      "fullFile": "cypress\\e2e\\automobile\\success\\complete-automobile-form-with-all-fields-filled.feature",
+      "file": "cypress\\e2e\\automobile\\success\\complete-automobile-form-with-all-fields-filled.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "75f4a19c-a21d-4669-ab6e-5bef958b24be",
+          "title": "Complete Automobile Insurance Flow",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User completes the automobile form with all optional and required fields filled (example #1)",
+              "fullTitle": "Complete Automobile Insurance Flow User completes the automobile form with all optional and required fields filled (example #1)",
+              "timedOut": null,
+              "duration": 20473,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "92f498dc-5896-4e04-98f9-6f82a2ffb0e4",
+              "parentUUID": "75f4a19c-a21d-4669-ab6e-5bef958b24be",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User completes the automobile form with all optional and required fields filled (example #2)",
+              "fullTitle": "Complete Automobile Insurance Flow User completes the automobile form with all optional and required fields filled (example #2)",
+              "timedOut": null,
+              "duration": 19117,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "1931ac08-9eee-47ad-86e7-253948ac76bf",
+              "parentUUID": "75f4a19c-a21d-4669-ab6e-5bef958b24be",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User completes the automobile form with all optional and required fields filled (example #3)",
+              "fullTitle": "Complete Automobile Insurance Flow User completes the automobile form with all optional and required fields filled (example #3)",
+              "timedOut": null,
+              "duration": 19284,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "8d073c0c-9286-4dde-882c-c3fd05bb544b",
+              "parentUUID": "75f4a19c-a21d-4669-ab6e-5bef958b24be",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User completes the automobile form with all optional and required fields filled (example #4)",
+              "fullTitle": "Complete Automobile Insurance Flow User completes the automobile form with all optional and required fields filled (example #4)",
+              "timedOut": null,
+              "duration": 20634,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "cbcba969-26a3-4e60-8f13-3efab9168b6f",
+              "parentUUID": "75f4a19c-a21d-4669-ab6e-5bef958b24be",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "92f498dc-5896-4e04-98f9-6f82a2ffb0e4",
+            "1931ac08-9eee-47ad-86e7-253948ac76bf",
+            "8d073c0c-9286-4dde-882c-c3fd05bb544b",
+            "cbcba969-26a3-4e60-8f13-3efab9168b6f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 79508,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

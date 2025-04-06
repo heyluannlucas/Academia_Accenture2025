@@ -1,0 +1,162 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-06T21:14:04.720Z",
+    "end": "2025-04-06T21:15:11.572Z",
+    "duration": 66852,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "000aa22e-7b99-4dd8-8926-3c993b4a1b85",
+      "title": "",
+      "fullFile": "cypress\\e2e\\automobile\\success\\complete-automobile-form-with-required-fields.feature",
+      "file": "cypress\\e2e\\automobile\\success\\complete-automobile-form-with-required-fields.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4260598f-a346-4bf1-a58b-68e5ecfc9dc7",
+          "title": "Automobile Insurance Application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User completes the automobile insurance form with Platinum price option (example #1)",
+              "fullTitle": "Automobile Insurance Application User completes the automobile insurance form with Platinum price option (example #1)",
+              "timedOut": null,
+              "duration": 18487,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f7ac5403-50a1-4690-b02a-449b38e015b2",
+              "parentUUID": "4260598f-a346-4bf1-a58b-68e5ecfc9dc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User completes the automobile insurance form with Gold price option (example #2)",
+              "fullTitle": "Automobile Insurance Application User completes the automobile insurance form with Gold price option (example #2)",
+              "timedOut": null,
+              "duration": 15709,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "04b5f3aa-d3fa-4e3c-9812-452c12e7baed",
+              "parentUUID": "4260598f-a346-4bf1-a58b-68e5ecfc9dc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User completes the automobile insurance form with Silver price option (example #3)",
+              "fullTitle": "Automobile Insurance Application User completes the automobile insurance form with Silver price option (example #3)",
+              "timedOut": null,
+              "duration": 15650,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f330e344-51a5-4550-be61-619954aba2f5",
+              "parentUUID": "4260598f-a346-4bf1-a58b-68e5ecfc9dc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User completes the automobile insurance form with Ultimate price option (example #4)",
+              "fullTitle": "Automobile Insurance Application User completes the automobile insurance form with Ultimate price option (example #4)",
+              "timedOut": null,
+              "duration": 15088,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "121f4a05-bd43-42bc-8fa4-eede12d231a7",
+              "parentUUID": "4260598f-a346-4bf1-a58b-68e5ecfc9dc7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f7ac5403-50a1-4690-b02a-449b38e015b2",
+            "04b5f3aa-d3fa-4e3c-9812-452c12e7baed",
+            "f330e344-51a5-4550-be61-619954aba2f5",
+            "121f4a05-bd43-42bc-8fa4-eede12d231a7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 64934,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
